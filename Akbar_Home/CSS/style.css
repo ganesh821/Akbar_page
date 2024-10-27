@@ -1,0 +1,948 @@
+
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.header-contact-info {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    background-color: #D02027;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 14px;
+   
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px;
+  }
+  
+  .navbar-logo {
+    text-align: center;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* Adjust the gap between nav items */
+    font-weight: 600;
+  }
+  
+  .navbar-brand img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .nav-link {
+    color: #000; /* Adjust color as needed */
+    border-bottom: 4px solid transparent;
+    padding-bottom: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .nav-link.active {
+    border-bottom: 4px solid red;
+    color: #000; /* Adjust active color if needed */
+  }
+
+
+  /* .position-relative {
+    position: relative;
+  } */
+
+    .section-banner {
+        position: relative;
+        
+    }
+    
+    .overlay-text {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white; /* Text color */
+        font-size: 33px; /* Adjust size */
+        font-weight: 500; /* Bold text */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add shadow for visibility */
+        width:100%;
+    }
+
+    .section-banner {
+        padding-left:0px;
+        padding-right:0px;
+    }
+
+    
+    .banner-content {
+        background-color: #07314F;
+        width: 85%;
+        margin: 0 auto;
+        padding: 30px 0;
+        border-radius: 20px;
+        margin-top: -90px;
+        overflow: hidden;
+        position: relative; /* Added */
+        z-index: 1; /* Added */
+    }
+
+    .banner-content img {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+
+    .banner-content p {
+    font-size: 18px;
+    color:white;
+    margin-top:15px;
+    }
+
+    
+
+
+
+
+    
+
+    /* OurVision OurMission section:    */
+
+    .ourvision, .ourmission {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .ourvision .leftside, .ourmission .rightside1 {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .ourvision .leftside {
+        text-align: right;
+    }
+
+    .ourvision .rightside, .ourmission .leftside1 {
+        flex: 1;
+        text-align: right;
+    }
+
+    .ourvision img, .ourmission img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .ourvision h2, .ourmission h2 {
+        font-size: 2rem;
+        margin-bottom: 15px; /* Spacing below the heading */
+        color: #333; /* Optional: improve readability */
+        font-weight:bold;
+    }
+
+    .ourvision span, .ourmission span {
+        display: block;
+        font-size: 1.2rem;
+        margin-bottom: 10px; /* Space below the span */
+        font-weight: 500;
+        color: #D02027; /* Optional: add color to differentiate it */
+    }
+
+    .ourvision p, .ourmission p {
+        font-size: 0.9rem;
+        line-height: 1.4; /* Improve text readability */
+        margin-bottom: 20px; /* Space below the paragraph */
+        color: black; /* Optional: lighter color for body text */
+    }
+
+    .ourvision .rightside, .ourmission .leftside1 {
+        background-color: #666;
+        width: 250px;
+        height: 250px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .ourvision img, .ourmission img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures the image covers the full container while maintaining aspect ratio */
+    }
+
+
+
+
+    .who-we-are {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #ffffff; /* Soft, neutral background color */
+    
+}
+
+.heading-section {
+    position: relative;
+    text-align: center; /* Centers the text and the rotated background */
+}
+
+.heading-section h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+    background-color: blue; /* Background color of the text */
+    max-width: 420px;
+    padding: 15px 20px;
+    margin: 0 auto;
+    position: relative; /* Position relative for pseudo-elements */
+    z-index: 2; /* Ensures text is above pseudo-elements */
+    border:none;
+   
+}
+
+.heading-section h2::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%; /* Full width of the parent container */
+    height: 100%; /* Full height of the parent container */
+    background-color: darkorange; /* Background color behind the text */
+    max-width: 400px; /* Limit width */
+    padding: 15px 20px; /* Padding */
+    transform: translate(-50%, -50%) rotate(-5deg); /* Rotate by 45 degrees */
+    z-index: -1; /* Place it behind the text */
+}
+
+.heading-section h2::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%; /* Full width of the parent container */
+    height: 100%; /* Full height of the parent container */
+    background-color: red; /* Blue background behind the text */
+    max-width: 410px; /* Limit width */
+    padding: 15px 20px; /* Padding */
+    transform: translate(-50%, -50%) rotate(-3deg); /* Same rotation */
+    z-index: -2; /* Place it behind the orange */
+}
+
+
+
+.who-we-are h4 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #444; /* Slightly lighter for subheading */
+    margin-bottom: 25px;
+}
+
+.who-we-are p {
+    color: #ffffff; /* Medium grey color for softer text appearance */
+    margin-bottom: 20px; /* Add space between paragraphs */
+    max-width: 1100px;
+    margin: 0 auto; /* Center the paragraph content */
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+/* .color-para {
+    background-image: url('../images/life-color.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover; 
+    color: #fff; 
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+} */
+
+
+.white-para p {
+    color: black; 
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.company-people {
+    margin-top: 50px;
+}
+
+.company-people h4 {
+    color:#D02027;
+}
+
+
+
+.white-para-text {
+    padding:50px 0;
+
+}
+
+
+.testimonial-carousel .testimonial-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.testimonial-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+
+
+
+.testimonial-text {
+    background-image: url('../images/BG-TEST 1.png');
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: left;
+   
+    padding: 50px;
+    border-radius: 25px;
+    position: relative;
+  
+    color: white; /* Text color for visibility */
+}
+
+
+.owl-carousel .owl-item img {
+    display: inline !important; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.testimonial-text h3 {
+    font-weight: bold;
+    font-size: 32px;
+    color:white;
+}
+
+.testimonial-text h6 {
+   color:#F68A1E;
+   font-size: 18px;
+}
+
+.testimonial-text p {
+    font-size: 16px;
+    line-height: 1.5;
+  color:white;
+    text-align: left;
+    padding-top:20px;
+    width: 85%;
+    margin:0;
+  
+}
+
+.testimonial-text h4 {
+    font-size: 18px;
+    margin: 10px 0 5px 0;
+    color:white;
+}
+
+.testimonial-text p:last-child {
+    font-size: 14px;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+
+/* .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .button.focus {
+    background-color: darkblue;
+  }
+  
+  .button:not(.focus) {
+    background-color: grey;
+  }
+   */
+
+
+   .button-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    justify-content: center;
+
+ 
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    transition: background-color 0.3s;
+    border-radius: 25px;
+    
+  }
+  
+  .button.focus {
+    background-color: #07314F;
+    color:white;
+    font-weight: 500;
+
+  }
+  
+  .button:not(.focus) {
+    background-color: #D9D9D9;
+    color:black;
+    font-weight: 500;
+  }
+  
+  .image-container {
+    margin-top: 20px;
+  }
+  
+  .img-fluid {
+    width: 100%; /* Full width of the container */
+  }
+
+  .owl-carousel-sliders {
+    border-radius: 50px;
+  }
+  
+  .owl-carousel-sliders .item img {
+    height: 400px; /* Set the desired height */
+    object-fit: cover; /* Ensures the image covers the entire container without distortion */
+    border-radius: 20px; /* Adjust as per your preference */
+    width: 100%; /* Ensures the image takes the full width of its container */
+}
+
+
+/* footer: */
+.bg-dark {
+    border-bottom:5px solid orange;
+    background-color: #07314F !important;
+}
+
+bg-dark img {
+    width: 250px;
+}
+
+.footer-text {
+    padding-top:30px;
+
+}
+
+.footer-text {
+    padding-top:30px;
+    padding-left:70px;
+    
+}
+
+.footer-text1, .footer-text2 {
+    padding-top:65px;
+    line-height: 2.0;
+} 
+
+.footer-text4 {
+    line-height: 1.8;
+}
+
+.Products , .TechpertIn {
+    width: 20%;
+}
+
+.container-footer{
+    margin-left:0;
+    padding-left:0;
+}
+
+.akbarlogofooter {
+    width: 35%;
+}
+
+.footer-end {
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 10px 0; /* Adjust padding as needed */
+    width: 100%; /* Ensures it takes the full width */
+    position: relative; /* Helps center the content */
+    font-weight: 500;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-end p {
+    margin-bottom: 0 !important;
+  }
+
+
+
+  /* Mobile Responsive: */
+  @media screen and (max-width: 1199px) {
+    .header-contact-info {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .navbar-brand img {
+        width: 18rem;
+    }
+
+    .overlay-text {
+     
+        font-size: 36px;
+      
+    }
+
+
+  
+
+
+
+  
+
+      /* Blue section: */
+    
+      .blue-section p{
+        font-size: 16px;
+      }
+
+
+      .white-para p {
+        width: 90%;
+      }
+
+      .bg-white{
+        width: 90%;
+      }
+
+      .akbarfooterlogo{
+        width: 280px;
+        height: 15%;
+      }
+      
+
+      .footer-text4 img {
+        width: 90%;
+      }
+    
+    
+}
+
+
+@media screen and (max-width: 991px) {
+    .header-contact-info {
+        max-width: 600px;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .navbar-brand img {
+        width: 16rem !important;
+    }
+
+    .navbar-nav{
+        font-size: 14px;
+        margin-bottom: 0 !important;
+        
+    }
+
+    .overlay-text {
+      font-size: 28px;
+    }
+
+    .blue-section p {
+        font-size: 14px;
+    }
+
+    .white-para p {
+        width: 80%;
+    }
+
+    .white-para p {
+       
+        font-size: 22px;
+      
+    }
+
+    
+
+
+    /* Akbar year: */
+
+  
+
+    .akbar-year{
+        margin-top: 50px;
+    }
+    .akbar-year h2 {
+       
+        font-size: 24px;
+      }
+    
+      .akbar-year p {
+       
+        font-size: 20px;
+      }
+    
+    .btn-custom {
+    
+      font-size: 16px;
+      border:none;
+      width: 60px;
+      height: 60px;
+      
+      }
+    
+      .person-image1 img {
+        margin-top: 0 !important;
+    }
+
+    .person-image2 img{
+        margin-bottom: 0 !important;
+    }
+
+    .person-left-text {
+        margin-top: 150px;
+    }
+
+    .First-column {
+        margin-top: 30px;
+    }
+
+    .second-column {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+      
+    
+    
+    
+      .time{
+       background-color: #07314F;
+       padding: 40px 20px;
+       border-radius:20px;
+      
+      }
+    
+      .Timeline-section {
+        margin-top: 50px;
+      }
+    
+    
+      .Timeline-section h2 {
+        font-size: 18px;
+       
+      }
+
+
+      .akbarfooterlogo{
+        width: 225px;
+        height: 10%;
+      }
+
+    
+
+      .footer-text {
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+      
+
+      .footer-text4 img {
+        width: 90%;
+      }
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .header-contact-info {
+        max-width: 500px;
+        margin: 0 auto;
+        font-size: 10px !important;
+    }
+
+    .section-banner img{
+        height: 250px;
+    }
+
+    .navbar-brand img {
+        width: 14rem !important;
+    }
+
+    .navbar-nav{
+        font-size: 12px;
+        
+    }
+
+    .overlay-text {
+      font-size: 20px;
+    }
+
+    .First-column {
+        margin-top: 30px;
+    }
+
+    .second-column {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .blue-section p {
+        font-size: 12px;
+    }
+
+    .white-para p {
+        width: 80%;
+    }
+
+    .white-para p {
+       
+        font-size: 22px;
+      
+    }
+
+    .person-image1 img {
+        margin-top: 0 !important;
+    }
+
+    .person-image2 img{
+        margin-bottom: 0 !important;
+    }
+
+    .person-left-text {
+        margin-top: 150px;
+    }
+
+
+    /* Akbar year: */
+
+    .Timeline-section p {
+        font-size: 12px;
+      
+    }
+
+    .akbar-year{
+        margin-top: 50px;
+    }
+    .akbar-year h2 {
+       
+        font-size: 24px;
+      }
+    
+      .akbar-year p {
+       
+        font-size: 20px;
+      }
+
+      /* footer: */
+  .akbarfooterlogo {
+      width: 160px;
+      height: 8%;
+  }
+
+  .akbarfooterlogo img {
+      display: block;
+
+      width: 80%;
+      position: relative;
+      left: 10px;
+  }
+
+  .footer-text {
+    padding-top: 10px;
+      padding-left: 15px;
+      font-size: 12px;
+  }
+
+  .footer-text1,
+  .footer-text2,
+  .footer-text4 {
+      padding-top: 0;
+      font-size: 12px;
+  }
+
+  .TechpertIn h5,
+  .Products h5 {
+      margin-top: 0;
+      font-size: 14px;
+  }
+    
+
+}
+
+
+@media screen and (max-width: 575px) {
+    .header-contact-info {
+        max-width: 400px;
+        margin: 0 auto;
+        font-size: 6px !important;
+    }
+
+    .section-banner img {
+        height: 150px;
+    }
+
+ 
+
+    .navbar-brand img {
+        width: 10rem !important;
+    }
+
+    .navbar-nav{
+        font-size: 6px;
+        margin-bottom: 0 !important;
+        
+    }
+
+    .nav-link.active {
+        border-bottom: 3px solid red;
+        color: #000;
+    }
+
+    .overlay-text {
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .First-column{
+        width: 100%;
+    }
+
+    .person-left-text, .person-right-text{
+        display: none;
+    }
+
+    .person-image1 img,.person-image2 img {
+        width: 100%;
+    }
+
+    .person-bgred {
+        padding: 8px 15px;
+        position: absolute;
+        bottom: -2px;
+        left: -1px;
+        width: 300px;
+    }
+
+    .person-bgyellow {
+        padding: 10px 20px;
+        position: absolute;
+        width: 300px;
+        top: 0;
+        left: 0px;
+    }
+
+    .heading-section{
+        margin-left: 20px;
+    margin-right: 20px;
+    
+    }
+
+    .heading-section h2{
+        font-size: 14px;
+    }
+    
+    .white-para-text{
+        padding: 0;
+    }
+
+    .white-para p {
+        font-size: 16px;
+    }
+   
+
+    .owl-item {
+        width: 296px !important;
+      
+       
+    }
+
+    .akbarlogofooter{
+        width: 100%;
+    }
+
+    .akbarfooterlogo {
+        width: 160px;
+        height: 22%;
+    }
+
+
+.TechpertIn, .Products{
+    width: 100%;
+    padding-left:26px;
+}
+
+.footer-text4{
+    padding-left:26px;
+}
+
+.footer-end p {
+    font-size: 10px;
+}
+}
+
+
+  

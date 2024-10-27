@@ -1,0 +1,298 @@
+
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.header-contact-info {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    background-color: #D02027;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 14px;
+   
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px;
+  }
+  
+  .navbar-logo {
+    text-align: center;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* Adjust the gap between nav items */
+    font-weight: 600;
+  }
+  
+  .navbar-brand img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .nav-link {
+    color: #000; /* Adjust color as needed */
+    border-bottom: 4px solid transparent;
+    padding-bottom: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .nav-link.active {
+    border-bottom: 4px solid red;
+    color: #000; /* Adjust active color if needed */
+  }
+
+
+  /* .position-relative {
+    position: relative;
+  } */
+
+  .section-banner {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.section-banner img {
+    width: 100%;
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any gaps below the image */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 25%; /* Position the text closer to the top */
+    left: 50%;
+    transform: translateX(-50%); /* Center the text horizontally */
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    width: 90%;
+    text-align: center;
+    line-height: 1.2;
+}
+
+
+    
+ 
+
+    
+
+
+    .who-we-are {
+
+    text-align: center;
+    background-color: #ffffff; /* Soft, neutral background color */
+    
+}
+
+.heading-section {
+    position: relative;
+    text-align: center; /* Centers the text and the rotated background */
+}
+
+.heading-section h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+    background-color: blue; /* Background color of the text */
+    max-width: 420px;
+    padding: 15px 20px;
+    margin: 0 auto;
+    position: relative; /* Position relative for pseudo-elements */
+    z-index: 2; /* Ensures text is above pseudo-elements */
+    border:none;
+   
+}
+
+.heading-section h2::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%; /* Full width of the parent container */
+    height: 100%; /* Full height of the parent container */
+    background-color: darkorange; /* Background color behind the text */
+    max-width: 400px; /* Limit width */
+    padding: 15px 20px; /* Padding */
+    transform: translate(-50%, -50%) rotate(-5deg); /* Rotate by 45 degrees */
+    z-index: -1; /* Place it behind the text */
+}
+
+.heading-section h2::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%; /* Full width of the parent container */
+    height: 100%; /* Full height of the parent container */
+    background-color: red; /* Blue background behind the text */
+    max-width: 410px; /* Limit width */
+    padding: 15px 20px; /* Padding */
+    transform: translate(-50%, -50%) rotate(-3deg); /* Same rotation */
+    z-index: -2; /* Place it behind the orange */
+}
+
+.getfares {
+    background-color: #f0f0f0; /* Light grey background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow effect */
+    padding: 20px; /* Adds padding */
+    border-radius: 10px; /* Optional: rounded corners */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+   
+    
+}
+
+
+.sleek-section {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.sleek-section {
+    text-align: left;
+}
+
+.sleek-section h5 {
+    font-weight: 600;
+    color: #D02027;
+}
+
+.sleek-section h2 {
+    font-weight: 600;
+    color: black;
+}
+
+.sleek-section p {
+   font-size: 18px;
+   font-weight: 500;
+   color:black;
+   
+}
+
+.sleek-paragraph {
+    padding:10px 0;
+}
+
+
+.explore {
+    background-color: #07314F;
+    color:white;
+    font-size: 18px;
+    width: 100%;
+    padding:10px 0 ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius:10px ; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow effect */  
+}
+
+.explore1 {
+    background-color: #D02027 ;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+  
+/* footer: */
+.bg-dark {
+    border-bottom:5px solid orange;
+    background-color: #07314F !important;
+}
+
+bg-dark img {
+    width: 250px;
+}
+
+.footer-text {
+    padding-top:30px;
+
+}
+
+.footer-text {
+    padding-top:30px;
+    padding-left:70px;
+    
+}
+
+.footer-text1, .footer-text2 {
+    padding-top:65px;
+    line-height: 2.0;
+} 
+
+.footer-text4 {
+    line-height: 1.8;
+}
+
+.Products , .TechpertIn {
+    width: 20%;
+}
+
+.container-footer{
+    margin-left:0;
+    padding-left:0;
+}
+
+.akbarlogofooter {
+    width: 35%;
+}
+
+.footer-end {
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 10px 0; /* Adjust padding as needed */
+    width: 100%; /* Ensures it takes the full width */
+    position: relative; /* Helps center the content */
+    font-weight: 500;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-end p {
+    margin-bottom: 0 !important;
+  }
+  
