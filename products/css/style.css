@@ -599,7 +599,7 @@ bg-dark img {
 }
 
 
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
     .header-contact-info {
         max-width: 400px;
         margin: 0 auto;
@@ -623,8 +623,8 @@ bg-dark img {
     }
 
     .nav-link.active {
-        border-bottom: 3px solid red;
-        color: #000;
+        border-bottom: 3px solid red !important;
+        color: #000 !important;
     }
 
     .overlay-text {
@@ -663,10 +663,7 @@ bg-dark img {
         width: 100%;
     }
 
-    /* .akbarfooterlogo {
-        width: 160px;
-        height: 22%;
-    } */
+
 
 
 .TechpertIn, .Products{
@@ -696,4 +693,4 @@ bg-dark img {
    
 }
 
-}
+} */

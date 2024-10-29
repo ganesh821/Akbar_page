@@ -1,5 +1,3 @@
-
-
 body {
     font-family: 'Montserrat Alternates', sans-serif;
 }
@@ -14,7 +12,7 @@ body {
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
     font-size: 14px;
-   
+
 }
 
 .contact-info {
@@ -31,173 +29,201 @@ body {
     flex-direction: column;
     align-items: center;
     padding-bottom: 0px;
-  }
-  
-  .navbar-logo {
+}
+
+.navbar-logo {
     text-align: center;
-  }
-  
-  .navbar-nav {
+}
+
+.navbar-nav {
     display: flex;
     justify-content: center;
-    gap: 1.5rem; /* Adjust the gap between nav items */
+    gap: 1.5rem;
+    /* Adjust the gap between nav items */
     font-weight: 600;
-  }
-  
-  .navbar-brand img {
+}
+
+.navbar-brand img {
     display: block;
     margin: 0 auto;
-  }
+}
 
-  .nav-link {
-    color: #000; /* Adjust color as needed */
+.nav-link {
+    color: #000;
+    /* Adjust color as needed */
     border-bottom: 4px solid transparent;
     padding-bottom: 5px;
     transition: border-color 0.3s ease;
-  }
-  
-  .nav-link.active {
-    border-bottom: 4px solid red;
-    color: #000; /* Adjust active color if needed */
-  }
+}
+
+.nav-link.active {
+    border-bottom: 4px solid red !important;
+    color: #000;
+    /* Adjust active color if needed */
+}
 
 
-  /* .position-relative {
+/* .position-relative {
     position: relative;
   } */
 
-    .section-banner {
-        position: relative;
-        
-    }
-    
-    .overlay-text {
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white; /* Text color */
-        font-size: 33px; /* Adjust size */
-        font-weight: 500; /* Bold text */
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Add shadow for visibility */
-        width:100%;
-    }
+.section-banner {
+    position: relative;
 
-    .section-banner {
-        padding-left:0px;
-        padding-right:0px;
-    }
+}
 
-    
-    .banner-content {
-        background-color: #07314F;
-        width: 85%;
-        margin: 0 auto;
-        padding: 30px 0;
-        border-radius: 20px;
-        margin-top: -90px;
-        overflow: hidden;
-        position: relative; /* Added */
-        z-index: 1; /* Added */
-    }
+.overlay-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* Text color */
+    font-size: 33px;
+    /* Adjust size */
+    font-weight: 500;
+    /* Bold text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    /* Add shadow for visibility */
+    width: 100%;
+}
 
-    .banner-content img {
-        width: 60px;
-        height: 60px;
-        object-fit: contain;
-    }
+.section-banner {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
-    .banner-content p {
+
+.banner-content {
+    background-color: #07314F;
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px 0;
+    border-radius: 20px;
+    margin-top: -90px;
+    overflow: hidden;
+    position: relative;
+    /* Added */
+    z-index: 1;
+    /* Added */
+}
+
+.banner-content img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.banner-content p {
     font-size: 18px;
-    color:white;
-    margin-top:15px;
-    }
-
-    
+    color: white;
+    margin-top: 15px;
+}
 
 
 
 
-    
-
-    /* OurVision OurMission section:    */
-
-    .ourvision, .ourmission {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 20px;
-        width: 100%;
-    }
-
-    .ourvision .leftside, .ourmission .rightside1 {
-        flex: 1;
-        padding: 20px;
-    }
-
-    .ourvision .leftside {
-        text-align: right;
-    }
-
-    .ourvision .rightside, .ourmission .leftside1 {
-        flex: 1;
-        text-align: right;
-    }
-
-    .ourvision img, .ourmission img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .ourvision h2, .ourmission h2 {
-        font-size: 2rem;
-        margin-bottom: 15px; /* Spacing below the heading */
-        color: #333; /* Optional: improve readability */
-        font-weight:bold;
-    }
-
-    .ourvision span, .ourmission span {
-        display: block;
-        font-size: 1.2rem;
-        margin-bottom: 10px; /* Space below the span */
-        font-weight: 500;
-        color: #D02027; /* Optional: add color to differentiate it */
-    }
-
-    .ourvision p, .ourmission p {
-        font-size: 0.9rem;
-        line-height: 1.4; /* Improve text readability */
-        margin-bottom: 20px; /* Space below the paragraph */
-        color: black; /* Optional: lighter color for body text */
-    }
-
-    .ourvision .rightside, .ourmission .leftside1 {
-        background-color: #666;
-        width: 250px;
-        height: 250px;
-        border-radius: 20px;
-        overflow: hidden;
-    }
-
-    .ourvision img, .ourmission img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover; /* Ensures the image covers the full container while maintaining aspect ratio */
-    }
 
 
 
 
-    .who-we-are {
+/* OurVision OurMission section:    */
+
+.ourvision,
+.ourmission {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.ourvision .leftside,
+.ourmission .rightside1 {
+    flex: 1;
+    padding: 20px;
+}
+
+.ourvision .leftside {
+    text-align: right;
+}
+
+.ourvision .rightside,
+.ourmission .leftside1 {
+    flex: 1;
+    text-align: right;
+}
+
+.ourvision img,
+.ourmission img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ourvision h2,
+.ourmission h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    /* Spacing below the heading */
+    color: #333;
+    /* Optional: improve readability */
+    font-weight: bold;
+}
+
+.ourvision span,
+.ourmission span {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    /* Space below the span */
+    font-weight: 500;
+    color: #D02027;
+    /* Optional: add color to differentiate it */
+}
+
+.ourvision p,
+.ourmission p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    /* Improve text readability */
+    margin-bottom: 20px;
+    /* Space below the paragraph */
+    color: black;
+    /* Optional: lighter color for body text */
+}
+
+.ourvision .rightside,
+.ourmission .leftside1 {
+    background-color: #666;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.ourvision img,
+.ourmission img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensures the image covers the full container while maintaining aspect ratio */
+}
+
+
+
+
+.who-we-are {
     padding: 50px 0;
     text-align: center;
-    background-color: #ffffff; /* Soft, neutral background color */
-    
+    background-color: #ffffff;
+    /* Soft, neutral background color */
+
 }
 
 .heading-section {
     position: relative;
-    text-align: center; /* Centers the text and the rotated background */
+    text-align: center;
+    /* Centers the text and the rotated background */
 }
 
 .heading-section h2 {
@@ -205,14 +231,17 @@ body {
     font-weight: 700;
     margin-bottom: 20px;
     color: #333;
-    background-color: blue; /* Background color of the text */
+    background-color: blue;
+    /* Background color of the text */
     max-width: 420px;
     padding: 15px 20px;
     margin: 0 auto;
-    position: relative; /* Position relative for pseudo-elements */
-    z-index: 2; /* Ensures text is above pseudo-elements */
-    border:none;
-   
+    position: relative;
+    /* Position relative for pseudo-elements */
+    z-index: 2;
+    /* Ensures text is above pseudo-elements */
+    border: none;
+
 }
 
 .heading-section h2::after {
@@ -220,13 +249,20 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100%; /* Full width of the parent container */
-    height: 100%; /* Full height of the parent container */
-    background-color: darkorange; /* Background color behind the text */
-    max-width: 400px; /* Limit width */
-    padding: 15px 20px; /* Padding */
-    transform: translate(-50%, -50%) rotate(-5deg); /* Rotate by 45 degrees */
-    z-index: -1; /* Place it behind the text */
+    width: 100%;
+    /* Full width of the parent container */
+    height: 100%;
+    /* Full height of the parent container */
+    background-color: darkorange;
+    /* Background color behind the text */
+    max-width: 400px;
+    /* Limit width */
+    padding: 15px 20px;
+    /* Padding */
+    transform: translate(-50%, -50%) rotate(-5deg);
+    /* Rotate by 45 degrees */
+    z-index: -1;
+    /* Place it behind the text */
 }
 
 .heading-section h2::before {
@@ -234,13 +270,20 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 100%; /* Full width of the parent container */
-    height: 100%; /* Full height of the parent container */
-    background-color: red; /* Blue background behind the text */
-    max-width: 410px; /* Limit width */
-    padding: 15px 20px; /* Padding */
-    transform: translate(-50%, -50%) rotate(-3deg); /* Same rotation */
-    z-index: -2; /* Place it behind the orange */
+    width: 100%;
+    /* Full width of the parent container */
+    height: 100%;
+    /* Full height of the parent container */
+    background-color: red;
+    /* Blue background behind the text */
+    max-width: 410px;
+    /* Limit width */
+    padding: 15px 20px;
+    /* Padding */
+    transform: translate(-50%, -50%) rotate(-3deg);
+    /* Same rotation */
+    z-index: -2;
+    /* Place it behind the orange */
 }
 
 
@@ -248,15 +291,19 @@ body {
 .who-we-are h4 {
     font-size: 28px;
     font-weight: 600;
-    color: #444; /* Slightly lighter for subheading */
+    color: #444;
+    /* Slightly lighter for subheading */
     margin-bottom: 25px;
 }
 
 .who-we-are p {
-    color: #ffffff; /* Medium grey color for softer text appearance */
-    margin-bottom: 20px; /* Add space between paragraphs */
+    color: #ffffff;
+    /* Medium grey color for softer text appearance */
+    margin-bottom: 20px;
+    /* Add space between paragraphs */
     max-width: 1100px;
-    margin: 0 auto; /* Center the paragraph content */
+    margin: 0 auto;
+    /* Center the paragraph content */
     text-align: center;
     font-size: 25px;
     font-weight: 500;
@@ -279,7 +326,7 @@ body {
 
 
 .white-para p {
-    color: black; 
+    color: black;
     font-size: 25px;
     font-weight: 500;
     line-height: 1.4;
@@ -290,13 +337,13 @@ body {
 }
 
 .company-people h4 {
-    color:#D02027;
+    color: #D02027;
 }
 
 
 
 .white-para-text {
-    padding:50px 0;
+    padding: 50px 0;
 
 }
 
@@ -328,17 +375,18 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     text-align: left;
-   
+
     padding: 50px;
     border-radius: 25px;
     position: relative;
-  
-    color: white; /* Text color for visibility */
+
+    color: white;
+    /* Text color for visibility */
 }
 
 
 .owl-carousel .owl-item img {
-    display: inline !important; 
+    display: inline !important;
 }
 
 
@@ -356,34 +404,34 @@ body {
 .testimonial-text h3 {
     font-weight: bold;
     font-size: 32px;
-    color:white;
+    color: white;
 }
 
 .testimonial-text h6 {
-   color:#F68A1E;
-   font-size: 18px;
+    color: #F68A1E;
+    font-size: 18px;
 }
 
 .testimonial-text p {
     font-size: 16px;
     line-height: 1.5;
-  color:white;
+    color: white;
     text-align: left;
-    padding-top:20px;
+    padding-top: 20px;
     width: 85%;
-    margin:0;
-  
+    margin: 0;
+
 }
 
 .testimonial-text h4 {
     font-size: 18px;
     margin: 10px 0 5px 0;
-    color:white;
+    color: white;
 }
 
 .testimonial-text p:last-child {
     font-size: 14px;
-    color:white;
+    color: white;
 }
 
 
@@ -420,16 +468,16 @@ body {
    */
 
 
-   .button-group {
+.button-group {
     display: flex;
     gap: 10px;
     margin-bottom: 40px;
     justify-content: center;
 
- 
-  }
-  
-  .button {
+
+}
+
+.button {
     padding: 10px 20px;
     font-size: 16px;
     border: none;
@@ -438,49 +486,54 @@ body {
     color: white;
     transition: background-color 0.3s;
     border-radius: 25px;
-    
-  }
-  
-  .button.focus {
+
+}
+
+.button.focus {
     background-color: #07314F;
-    color:white;
+    color: white;
     font-weight: 500;
 
-  }
-  
-  .button:not(.focus) {
+}
+
+.button:not(.focus) {
     background-color: #D9D9D9;
-    color:black;
+    color: black;
     font-weight: 500;
-  }
-  
-  .image-container {
-    margin-top: 20px;
-  }
-  
-  .img-fluid {
-    width: 100%; /* Full width of the container */
-  }
+}
 
-  .owl-carousel-sliders {
+.image-container {
+    margin-top: 20px;
+}
+
+.img-fluid {
+    width: 100%;
+    /* Full width of the container */
+}
+
+.owl-carousel-sliders {
     border-radius: 50px;
-  }
-  
-  .owl-carousel-sliders .item img {
-    max-height: 350px; /* Set the desired height */
-    object-fit: cover; /* Ensures the image covers the entire container without distortion */
-    border-radius: 20px; /* Adjust as per your preference */
-    width: 100%; /* Ensures the image takes the full width of its container */
+}
+
+.owl-carousel-sliders .item img {
+    max-height: 350px;
+    /* Set the desired height */
+    object-fit: cover;
+    /* Ensures the image covers the entire container without distortion */
+    border-radius: 20px;
+    /* Adjust as per your preference */
+    width: 100%;
+    /* Ensures the image takes the full width of its container */
 }
 
 
 /* footer: */
 .bg-dark {
-    border-bottom:5px solid orange;
+    border-bottom: 5px solid orange;
     background-color: #07314F !important;
 }
 
-.footer-akbar-img{
+.footer-akbar-img {
     background-color: white;
     padding: 10px;
     border-top-right-radius: 25px;
@@ -496,37 +549,40 @@ body {
     position: relative;
     left: 50px;
 }
+
 bg-dark img {
     width: 250px;
 }
 
 .footer-text {
-    padding-top:30px;
+    padding-top: 30px;
 
 }
 
 .footer-text {
-    padding-top:30px;
-    padding-left:70px;
-    
+    padding-top: 30px;
+    padding-left: 70px;
+
 }
 
-.footer-text1, .footer-text2 {
-    padding-top:65px;
+.footer-text1,
+.footer-text2 {
+    padding-top: 65px;
     line-height: 2.0;
-} 
+}
 
 .footer-text4 {
     line-height: 1.8;
 }
 
-.Products , .TechpertIn {
+.Products,
+.TechpertIn {
     width: 20%;
 }
 
-.container-footer{
-    margin-left:0;
-    padding-left:0;
+.container-footer {
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .akbarlogofooter {
@@ -539,38 +595,41 @@ bg-dark img {
     text-align: center;
     margin: 0 auto;
     font-size: 14px;
-    padding: 10px 0; /* Adjust padding as needed */
-    width: 100%; /* Ensures it takes the full width */
-    position: relative; /* Helps center the content */
+    padding: 10px 0;
+    /* Adjust padding as needed */
+    width: 100%;
+    /* Ensures it takes the full width */
+    position: relative;
+    /* Helps center the content */
     font-weight: 500;
-  
+
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
-  .footer-end p {
+.footer-end p {
     margin-bottom: 0 !important;
-  }
+}
 
 
 
 
 
-  /* Mobile Responsive: */
+/* Mobile Responsive: */
 
-  @media screen and (max-width: 1399px) {
-    .life-color-size img{
+@media screen and (max-width: 1399px) {
+    .life-color-size img {
         min-height: 1200px !important;
-      }
+    }
 
-      .testimonial-img-size {
+    .testimonial-img-size {
         width: 75% !important;
         border-radius: 15% !important;
-      }
-  }
+    }
+}
 
-  @media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
     .header-contact-info {
         max-width: 800px;
         margin: 0 auto;
@@ -593,20 +652,20 @@ bg-dark img {
     }
 
     .life-color-size img {
-        min-height: 1400px !important; 
+        min-height: 1400px !important;
     }
 
     .life-color-size p {
         width: 90%;
     }
-      
-    
+
+
     .white-para p {
         width: 90%;
-       
+
     }
 
-     .bg-white {
+    .bg-white {
         width: 90%;
     }
 
@@ -660,10 +719,10 @@ bg-dark img {
         width: 16rem !important;
     }
 
-    .navbar-nav{
+    .navbar-nav {
         font-size: 14px;
         margin-bottom: 0 !important;
-        
+
     }
 
     .banner-content img {
@@ -676,30 +735,33 @@ bg-dark img {
         font-size: 10px;
     }
 
-    .overlay-text p{
-      font-size: 24px !important;
+    .overlay-text p {
+        font-size: 24px !important;
     }
 
-    .overlay-text p{
+    .overlay-text p {
         margin-bottom: 50px !important;
-      }
+    }
 
-      .ourvision h2, .ourmission h2 {
+    .ourvision h2,
+    .ourmission h2 {
         font-size: 1.5rem;
-       
+
     }
 
-    .ourvision p, .ourmission p {
+    .ourvision p,
+    .ourmission p {
         font-size: 0.7rem;
-       
+
     }
 
-    .ourvision span, .ourmission span {
-     
+    .ourvision span,
+    .ourmission span {
+
         font-size: 0.9rem;
-        
+
     }
-  
+
 
     .blue-section p {
         font-size: 14px;
@@ -710,13 +772,13 @@ bg-dark img {
     }
 
     .white-para p {
-       
+
         font-size: 20px;
-      
+
     }
 
-    .life-color-size img{
-        min-height: 200vh !important;
+    .life-color-size img {
+        min-height: 375vh !important;
     }
 
     .life-color-size p {
@@ -725,7 +787,7 @@ bg-dark img {
     }
 
     .who-we-are {
-        padding:25px 0 !important;
+        padding: 25px 0 !important;
     }
 
 
@@ -736,7 +798,7 @@ bg-dark img {
         border-radius: 15% !important;
     }
 
-    .testimonial-text{
+    .testimonial-text {
         padding: 25px !important;
     }
 
@@ -756,40 +818,41 @@ bg-dark img {
         padding-top: 10px !important;
     }
 
-    
+
 
 
     /* Akbar year: */
 
-  
 
-    .akbar-year{
+
+    .akbar-year {
         margin-top: 50px;
     }
+
     .akbar-year h2 {
-       
+
         font-size: 24px;
-      }
-    
-      .akbar-year p {
-       
+    }
+
+    .akbar-year p {
+
         font-size: 20px;
-      }
-    
+    }
+
     .btn-custom {
-    
-      font-size: 16px;
-      border:none;
-      width: 60px;
-      height: 60px;
-      
-      }
-    
-      .person-image1 img {
+
+        font-size: 16px;
+        border: none;
+        width: 60px;
+        height: 60px;
+
+    }
+
+    .person-image1 img {
         margin-top: 0 !important;
     }
 
-    .person-image2 img{
+    .person-image2 img {
         margin-bottom: 0 !important;
     }
 
@@ -805,35 +868,35 @@ bg-dark img {
         margin-top: 30px;
         margin-bottom: 30px;
     }
-      
-    
-    
-    
-      .time{
-       background-color: #07314F;
-       padding: 40px 20px;
-       border-radius:20px;
-      
-      }
-    
-      .Timeline-section {
+
+
+
+
+    .time {
+        background-color: #07314F;
+        padding: 40px 20px;
+        border-radius: 20px;
+
+    }
+
+    .Timeline-section {
         margin-top: 50px;
-      }
-    
-    
-      .Timeline-section h2 {
+    }
+
+
+    .Timeline-section h2 {
         font-size: 18px;
-       
-      }
+
+    }
 
 
-      .akbarfooterlogo{
+    .akbarfooterlogo {
         width: 225px;
         height: 10%;
-      }
+    }
 
 
-      .footer-akbar-img {
+    .footer-akbar-img {
 
         width: 220px;
         height: 12%;
@@ -846,17 +909,17 @@ bg-dark img {
         left: 25px;
         top: 5px;
     }
-    
 
-      .footer-text {
+
+    .footer-text {
         padding-top: 30px;
         padding-left: 30px;
     }
-      
 
-      .footer-text4 img {
+
+    .footer-text4 img {
         width: 90%;
-      }
+    }
 
 }
 
@@ -875,9 +938,9 @@ bg-dark img {
         width: 14rem !important;
     }
 
-    .navbar-nav{
+    .navbar-nav {
         font-size: 12px;
-        
+
     }
 
     .banner-content {
@@ -899,41 +962,45 @@ bg-dark img {
         font-size: 18px !important;
     }
 
-    .ourvision .leftside, .ourmission .rightside1 {
+    .ourvision .leftside,
+    .ourmission .rightside1 {
         flex: 1;
         padding: 15px;
     }
 
-    .ourvision h2, .ourmission h2 {
+    .ourvision h2,
+    .ourmission h2 {
         font-size: 1.2rem;
     }
 
-    .ourvision span, .ourmission span {
+    .ourvision span,
+    .ourmission span {
         font-size: 0.6rem;
     }
 
-    .ourvision p, .ourmission p {
+    .ourvision p,
+    .ourmission p {
         font-size: 0.5rem;
     }
 
     .heading-section h2 {
         font-size: 18px !important;
-       background-color: #07314F !important;
+        background-color: #07314F !important;
         max-width: 300px !important;
         padding: 13px 11px !important;
-      
+
     }
 
-    .company-people h4{
+    .company-people h4 {
         font-size: 1.3rem !important;
     }
 
-    .company-people p{
+    .company-people p {
         font-size: 1rem !important;
     }
 
     .life-color-size img {
-        min-height: 170vh !important;
+        min-height: 370vh !important;
     }
 
     .life-color-size p {
@@ -956,7 +1023,10 @@ bg-dark img {
 
     .white-para p {
         width: 90% !important;
+      
     }
+
+
 
     .white-para p {
         font-size: 16px !important;
@@ -967,7 +1037,7 @@ bg-dark img {
         border-radius: 15% !important;
     }
 
-    .testimonial-text{
+    .testimonial-text {
         padding: 20px !important;
     }
 
@@ -991,7 +1061,7 @@ bg-dark img {
         margin-top: 0 !important;
     }
 
-    .person-image2 img{
+    .person-image2 img {
         margin-bottom: 0 !important;
     }
 
@@ -1004,27 +1074,28 @@ bg-dark img {
 
     .Timeline-section p {
         font-size: 12px;
-      
+
     }
 
-    .akbar-year{
+    .akbar-year {
         margin-top: 50px;
     }
+
     .akbar-year h2 {
-       
+
         font-size: 24px;
-      }
-    
-      .akbar-year p {
-       
+    }
+
+    .akbar-year p {
+
         font-size: 20px;
-      }
+    }
 
 
-      .owl-carousel-sliders .item img {
-      
+    .owl-carousel-sliders .item img {
+
         max-height: 300px !important;
-    
+
     }
 
     .footer-akbar-img {
@@ -1041,39 +1112,39 @@ bg-dark img {
         top: 5px;
     }
 
-      /* footer: */
-  .akbarfooterlogo {
-      width: 160px;
-      height: 8%;
-  }
+    /* footer: */
+    .akbarfooterlogo {
+        width: 160px;
+        height: 8%;
+    }
 
-  .akbarfooterlogo img {
-      display: block;
+    .akbarfooterlogo img {
+        display: block;
 
-      width: 80%;
-      position: relative;
-      left: 10px;
-  }
+        width: 80%;
+        position: relative;
+        left: 10px;
+    }
 
-  .footer-text {
-    padding-top: 10px;
-      padding-left: 15px;
-      font-size: 12px;
-  }
+    .footer-text {
+        padding-top: 10px;
+        padding-left: 15px;
+        font-size: 12px;
+    }
 
-  .footer-text1,
-  .footer-text2,
-  .footer-text4 {
-      padding-top: 0;
-      font-size: 12px;
-  }
+    .footer-text1,
+    .footer-text2,
+    .footer-text4 {
+        padding-top: 0;
+        font-size: 12px;
+    }
 
-  .TechpertIn h5,
-  .Products h5 {
-      margin-top: 0;
-      font-size: 14px;
-  }
-    
+    .TechpertIn h5,
+    .Products h5 {
+        margin-top: 0;
+        font-size: 14px;
+    }
+
 
 }
 
@@ -1084,109 +1155,191 @@ bg-dark img {
         margin: 0 auto;
         font-size: 6px !important;
     }
-
-    .section-banner img {
+  
+    /* .section-banner img {
         height: 150px;
+    } */
+
+   .banner-content .row>* {
+        width: 0% !important;
+        justify-content: space-around !important;
     }
 
- 
+    .justify {
+        justify-content: space-around !important;
+        width: 100% !important;
+    }
+    
+    .banner-content {
+        padding: 5px 0 !important;
+        margin-top: -45px !important;
+    }
 
-    .navbar-brand img {
+    .banner-content img {
+        width: 20px !important;
+        height: 20px !important;
+        object-fit: contain;
+    }
+  
+   .navbar-brand img {
         width: 10rem !important;
     }
-
+  
     .navbar-nav{
         font-size: 6px;
         margin-bottom: 0 !important;
         
-    }
-
+    }   
+  
     .nav-link.active {
         border-bottom: 3px solid red;
         color: #000;
     }
-
-    .overlay-text {
-      font-size: 12px;
+  
+    .overlay-text p{
+      font-size: 12px !important;
       line-height: 1.4;
     }
-
-    .First-column{
-        width: 100%;
-    }
-
-    .person-left-text, .person-right-text{
-        display: none;
-    }
-
-    .person-image1 img,.person-image2 img {
-        width: 100%;
-    }
-
-    .person-bgred {
-        padding: 8px 15px;
-        position: absolute;
-        bottom: -2px;
-        left: -1px;
-        width: 300px;
-    }
-
-    .person-bgyellow {
-        padding: 10px 20px;
-        position: absolute;
-        width: 300px;
-        top: 0;
-        left: 0px;
-    }
-
+  
     .heading-section{
         margin-left: 20px;
     margin-right: 20px;
     
     }
+  
+    .heading-section h2 {
+        font-size: 12px !important;
+        max-width: 200px !important;    
+    }
 
-    .heading-section h2{
-        font-size: 14px;
+    .company-people h4 {
+        font-size: 1rem !important;
     }
     
     .white-para-text{
-        padding: 0;
+        padding-top: 30px;
     }
-
+  
     .white-para p {
-        font-size: 16px;
+        font-size: 12px !important;
     }
    
+    .company-people h4 {
+        font-size: 1.1rem !important;
+    }
 
+    .company-people p {
+        font-size: 1rem !important;
+    }
+
+
+
+    .life-color-size p {
+        width: 90% !important;
+        font-size: 12px !important;
+    }
+  
     .owl-item {
-        width: 296px !important;
+        width: 296px !important ;
+        height: 300px !important;
       
        
     }
 
-    .akbarlogofooter{
+
+    .ourvision, .ourmission {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
         width: 100%;
     }
 
-    .akbarfooterlogo {
-        width: 160px;
-        height: 22%;
+
+    .button {
+        font-size: 12px !important;
+        padding: 5px 10px !important;
     }
-
-
-.TechpertIn, .Products{
+  
+    .akbarlogofooter{
+        width: 100%;
+    }
+  
+  
+  
+  .TechpertIn, .Products{
     width: 100%;
     padding-left:26px;
-}
-
-.footer-text4{
+  }
+  
+  .footer-text4{
     padding-left:26px;
-}
-
-.footer-end p {
+  }
+  
+  .footer-end p {
     font-size: 10px;
-}
-}
+  }
+  
+  .footer-akbar-img {
+  
+    width: 220px;
+    height: 28%;
+  }
+  
+  .akbar-logo-footer {
+    display: block;
+    width: 70%;
+    position: relative;
+    left: 25px;
+   
+  }
+
+  .leftside {
+    width: 100% !important;
+  }
+  
+  
+  
+  
+  
+  .blue-section p {
+    font-size: 10px !important;
+  }
+  
+  .heading-section h2 {
+    font-size: 12px !important;
+  }
+  
+  .bg-white {
+    margin-bottom: 50px !important;
+  }
+  
 
 
+.vision-mission {
+    padding: 0 !important
+}
+
+.ourvision .leftside {
+    text-align: right;
+}
+
+.ourvision .rightside, .ourmission .leftside1 {
+    background-color: #666;
+  
+    border-radius: 20px;
+    overflow:auto;
+    padding: 1;
+    margin: 10px;
+}
+
+.testimonial-img-size {
+    width: 100% !important;
+    border-radius: 15% !important;
+}
+  
+  }
+  
+  
   

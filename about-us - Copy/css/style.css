@@ -1,0 +1,1519 @@
+
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.header-contact-info {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    background-color: #D02027;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 14px;
+   
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: #ffffff;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0px;
+  }
+  
+  .navbar-logo {
+    text-align: center;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; /* Adjust the gap between nav items */
+    font-weight: 600;
+  }
+  
+  .navbar-brand img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .nav-link {
+    color: #000; /* Adjust color as needed */
+    border-bottom: 4px solid transparent;
+    padding-bottom: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .nav-link.active {
+    border-bottom: 4px solid red;
+    color: #000; /* Adjust active color if needed */
+  }
+
+
+  /* .position-relative {
+    position: relative;
+  } */
+
+  .section-banner {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.section-banner img {
+    width: 100%;
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any gaps below the image */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 25%; /* Position the text closer to the top */
+    left: 50%;
+    transform: translateX(-50%); /* Center the text horizontally */
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    width: 90%;
+    text-align: center;
+    line-height: 1.2;
+}
+
+
+    
+ 
+/* Container for logos and paragraph */
+/* Container for logos and paragraph */
+.logo-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px; /* Space between the logos */
+    margin-bottom: 10px;
+    padding-right: 40px;
+  }
+
+  .logo-container1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px; /* Space between the logos */
+    margin-bottom: 10px;
+    padding-right: 30px;
+  }
+  
+  /* Styling for each logo */
+  .logo {
+    width: 100px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    object-fit: contain; /* Ensures the logos keep their aspect ratio within the box */
+  }
+
+  .logo1 {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    object-fit: contain; /* Ensures the logos keep their aspect ratio within the box */
+  }
+
+  /* .First-column, .second-column {
+    padding:0 50px;
+  } */
+  
+  /* Border row beneath logos */
+  .border-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Each colored border (three separate lines) */
+  .border {
+    height: 4px;
+    margin-bottom: 5px;
+    
+  }
+  
+  .border.red {
+    background-color: #D02027;
+    border: none;
+    width: 75%;
+    transform: translateX(33%);
+}
+  
+  .border.blue {
+    background-color:#07314F;
+    border:none;
+    width: 75%;
+    transform: translateX(33%);
+  }
+  
+  .border.yellow {
+    background-color:#F68A1E;
+    border:none;
+    width: 60%;
+    transform: translateX(66%); 
+  }
+
+
+  .border.red1 {
+    background-color:#D02027;
+    width: 75%; /* Sets the width to 50% */
+    transform: translateX(0); /* Moves the element 50% of its width to the right */
+    border:none;
+   
+    
+  }
+  
+  .border.blue1 {
+    background-color:#07314F;
+    border:none;
+    width: 75%; /* Sets the width to 50% */
+    transform: translateX(0%); /* Moves the element 50% of its width to the right */
+    
+  }
+  
+  .border.yellow1 {
+    background-color:#F68A1E;
+    border:none;
+    width: 60%; /* Sets the width to 50% */
+    transform: translateX(0%); /* Moves the element 50% of its width to the right */
+    
+  }
+  
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  /* blue-section */
+
+  .blue-section {
+    background-color: #07314F; /* Blue background */
+    color: white; /* White text */
+    padding: 40px 0; /* Padding around the section */
+  }
+  
+  .blue-section p {
+    text-align: left; /* Left align text */
+    margin-bottom: 20px; /* Add gap between paragraphs */
+    line-height: 1.6; /* Improve readability */font-size: 20px;
+  }
+
+
+  /* Who we are section: */
+
+
+  .who-we-are {
+   
+    text-align: center;
+    background-color: #ffffff; /* Soft, neutral background color */
+    
+}
+
+.heading-section {
+    position: relative;
+    text-align: center; /* Centers the text and the rotated background */
+}
+
+.heading-section h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+    background-color:#07314F; /* Background color of the text */
+    max-width: 420px;
+    padding: 15px 20px;
+    margin: 0 auto;
+    position: relative; /* Position relative for pseudo-elements */
+    z-index: 2; /* Ensures text is above pseudo-elements */
+    border:none;
+   
+}
+
+.heading-section h2::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%; /* Full width of the parent container */
+    height: 100%; /* Full height of the parent container */
+    background-color:#F68A1E; /* Background color behind the text */
+    max-width: 400px; /* Limit width */
+    padding: 15px 20px; /* Padding */
+    transform: translate(-50%, -50%) rotate(-5deg); /* Rotate by 45 degrees */
+    z-index: -1; /* Place it behind the text */
+}
+
+.heading-section h2::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%; /* Full width of the parent container */
+    height: 100%; /* Full height of the parent container */
+    background-color:#D02027; /* Blue background behind the text */
+    max-width: 410px; /* Limit width */
+    padding: 15px 20px; /* Padding */
+    transform: translate(-50%, -50%) rotate(-3deg); /* Same rotation */
+    z-index: -2; /* Place it behind the orange */
+}
+
+
+
+.who-we-are h4 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #444; /* Slightly lighter for subheading */
+    margin-bottom: 25px;
+}
+
+.who-we-are p {
+    color: #ffffff; /* Medium grey color for softer text appearance */
+    margin-bottom: 20px; /* Add space between paragraphs */
+    max-width: 1100px;
+    margin: 0 auto; /* Center the paragraph content */
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+
+
+.img-fluids {
+    width: 100%;
+    height: auto;
+  }
+  
+  .cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+
+
+  
+  
+  
+
+  
+/* footer: */
+.bg-dark {
+  border-bottom:5px solid orange;
+  background-color: #07314F !important;
+}
+
+bg-dark img {
+  width: 250px;
+}
+
+.footer-text {
+  padding-top:30px;
+
+}
+
+.footer-text {
+  padding-top:30px;
+  padding-left:70px;
+  
+}
+
+.footer-text1, .footer-text2 {
+  padding-top:65px;
+  line-height: 2.0;
+} 
+
+.footer-text4 {
+  line-height: 1.8;
+}
+
+.Products , .TechpertIn {
+  width: 20%;
+}
+
+.container-footer{
+  margin-left:0;
+  padding-left:0;
+}
+
+.akbarlogofooter {
+  width: 35%;
+}
+
+.footer-akbar-img{
+  background-color: white;
+  padding: 10px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  position: relative;
+  width: 350px;
+  height: 23%;
+}
+
+.akbar-logo-footer {
+  display: block;
+  width: 70%;
+  position: relative;
+  left: 50px;
+}
+
+.footer-end {
+  background-color: red;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 14px;
+  padding: 10px 0; /* Adjust padding as needed */
+  width: 100%; /* Ensures it takes the full width */
+  position: relative; /* Helps center the content */
+  font-weight: 500;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-end p {
+  margin-bottom: 0 !important;
+}
+
+
+
+
+
+
+  .owl-carousel .owl-item {
+    padding: 0 10px; /* Adds a gap between each item */
+}
+
+.owl-carousel img {
+    width: 290px; /* Ensures the image takes up the full width of the container */
+    height: 350px; /* Set a fixed height */
+    object-fit: contain; /* Ensures the image scales and crops properly within the container */
+    border-radius: 10px; /* Applies rounded corners */
+}
+
+.person-card {
+    position: relative;
+    width: 220px;
+    height: 350px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+/* Image container */
+.image-container {
+    width: 100%;
+    height: 100%;
+}
+
+.person-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* dddd text positioning */
+.text-overlay {
+    background-color: #D02027;
+    display: inline;
+    width: 100%;
+    text-align: center;
+    padding: 5px 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    font-size: 18px !important;
+    z-index: 99999;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Hide dddd text when focused or hovered */
+.person-card:hover .text-overlay,
+.person-card:focus .text-overlay,
+.person-card:active .text-overlay {
+    opacity: 0;
+}
+
+/* Info card styling */
+.person-info {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 165, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Add border-radius only on hover or focus */
+.person-card:hover, 
+.person-card:focus, 
+.person-card:active {
+    border-radius: 10%;
+}
+
+.person-card:hover .person-info,
+.person-card:focus .person-info,
+.person-card:active .person-info {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.person-info h5,
+.person-info span,
+.person-info h6 {
+    color: rgb(0, 0, 0);
+}
+
+.person-info h5 {
+    font-weight: 700;
+}
+
+.person-info span {
+    font-weight: 500;
+}
+
+.person-info h6 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.top-content {
+    align-self: center;
+    padding-top: 10px;
+}
+
+.bottom-content {
+    align-self: flex-end;
+    padding-bottom: 10px;
+}
+
+
+.white-para p {
+    color: black; 
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.white-para-text {
+    padding:20px 0;
+
+}
+
+
+
+/* year section: */
+
+.akbar-year{
+    margin-top: 50px;
+}
+.akbar-year h2 {
+    text-align: left;
+    font-weight: 600;
+    color: #D02027;
+    margin-bottom: 0;
+    font-size: 32px;
+  }
+
+  .akbar-year p {
+    text-align: left;
+    font-weight: 600;
+    color: #07314F;
+    line-height: 1.3;
+    font-size: 32px;
+  }
+
+.btn-custom {
+    border-radius: 50%;
+  background-color: #D02027;
+  color:white;
+  font-weight: 600;
+  font-size: 18px;
+  border:none;
+  width: 65px;
+  height: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  
+
+
+
+  .time{
+   background-color: #07314F;
+   padding: 50px 25px;
+   border-radius:20px;
+  
+  }
+
+  .Timeline-section {
+    margin-top: 50px;
+  }
+
+
+  .Timeline-section h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color:white;
+  }
+
+  
+  .Timeline-section p {
+    font-size: 14px;
+    color:rgb(255, 255, 255) !important;
+    text-align: left;
+  }
+
+
+
+
+.akbar-year, .Timeline-section {
+    transition: opacity 0.5s ease;  
+  }
+  
+ 
+  /* .fade {
+    opacity: 0.3;  
+  }
+  
+  
+  .active {
+    opacity: 1;
+  }
+  
+  
+  .fade:hover {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;  
+  }
+
+
+  .btn-custom {
+    background-color: #D02027; 
+    transition: background-color 0.5s ease;
+}
+
+.btn-line {
+    background-color: #D02027;
+    transition: background-color 0.5s ease;
+}
+
+
+.active-btn {
+    background-color: #F68A1E !important; 
+    transition: background-color 0.3s ease;
+} */
+
+/* .active-line {
+    background-color: #F68A1E !important; 
+    transition: background-color 0.3s ease;
+} */
+
+
+
+
+/* Mobile Responsive: */
+
+
+@media screen and (max-width: 1399px) {
+
+  .header-contact-info {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .navbar-brand img {
+    width: 18rem;
+  }
+
+  .overlay-text {
+
+    font-size: 36px;
+  }
+
+  .person-image1 .person-hidyath {
+    margin-top: 0 !important;
+  }
+
+  .person-bgred {
+    width: 250px !important;
+    position: absolute;
+    right: -35px !important;
+  }
+
+  .person-image1 .person-hidyath {
+    margin-bottom: 0 !important;
+  }
+
+  .person-bgyellow {
+    width: 250px !important;
+    position: absolute;
+    top: -20px;
+    left: -41px;
+  }
+
+  .footer-akbar-img {
+
+    width: 300px;
+    height: 15%;
+  }
+
+
+  .akbarfooterlogo {
+    width: 280px;
+    height: 15%;
+
+  }
+
+  .footer-text4 img {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .header-contact-info {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .navbar-brand img {
+        width: 18rem;
+    }
+
+    .overlay-text {
+     
+        font-size: 36px;
+      
+    }
+
+   .person-image1 {
+          width: 100% !important;
+        
+        }
+    
+    .person-image2 {
+          width: 100% !important;
+         
+        }
+
+        .person-image1 .person-hidyath {
+          margin-top: 0px !important;
+        }
+
+        .person-image2 .person-hidyath {
+          margin-bottom: 0px !important;
+        }
+
+        .person-bgred {
+          width: 200px !important;
+          position: absolute;
+          right: -12px !important;
+        }
+
+        .person-bgyellow {
+          width: 200px !important;
+          position: absolute;
+         
+          left:-12px !important;
+        }
+
+        .person-bgred h2, .person-bgyellow h2{
+          font-size: 16px !important;
+        }
+        .person-bgred p, .person-bgyellow p{
+          font-size: 14px !important;
+        }
+
+        .person-left-text p , .person-right-text p {
+          font-size: 14px !important;
+        }
+
+    
+
+
+
+  /* Blue section: */
+    
+      .blue-section p{
+        font-size: 16px;
+      }
+
+
+      .white-para p {
+        width: 90%;
+      }
+
+      .bg-white{
+        width: 90%;
+      }
+
+      .akbarfooterlogo{
+        width: 280px;
+        height: 15%;
+      }
+      
+
+      .footer-text4 img {
+        width: 90%;
+      }
+    
+    
+}
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    .header-contact-info {
+        max-width: 600px;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .navbar-brand img {
+        width: 16rem !important;
+    }
+
+    .navbar-nav{
+        font-size: 14px;
+        margin-bottom: 0 !important;
+        
+    }
+
+    .overlay-text {
+      font-size: 28px;
+    }
+
+    .blue-section p {
+        font-size: 14px;
+    }
+
+    .white-para p {
+        width: 80%;
+    }
+
+    .white-para p {
+       
+        font-size: 22px;
+      
+    }
+
+        .person-image1 .person-hidyath {
+          width: 70% !important;
+          
+        }
+    
+        .person-image2 .person-hidyath {
+          width: 70% !important;
+        }
+
+        .person-image2 {
+          position: relative !important;
+          right: -15% !important;
+        }
+    
+                .person-bgred {
+                  font-size: 14px;
+                  position: absolute;
+                  left: 324px !important;
+                  width: 324px !important;
+                }
+
+                .person-bgyellow {
+                  font-size: 14px;
+                  position: absolute;
+                  left: -30px !important;
+                  width: 324px !important;
+                }
+
+        .person-left-text p, .person-right-text p {
+          font-size: 18px !important;
+          text-align: right;
+          padding-right: 30px;
+      }
+
+      .spaces {
+        margin:30px 0 !important;
+      }
+
+      .footer-akbar-img {
+
+        width: 220px;
+        height: 12%;
+    }
+
+    .akbar-logo-footer {
+        display: block;
+        width: 80%;
+        position: relative;
+        left: 25px;
+        top: 5px;
+    }
+    
+
+
+    /* Akbar year: */
+
+  
+
+    .akbar-year{
+        margin-top: 50px;
+    }
+    .akbar-year h2 {
+       
+        font-size: 24px;
+      }
+    
+      .akbar-year p {
+       
+        font-size: 20px;
+      }
+    
+    .btn-custom {
+    
+      font-size: 16px;
+      border:none;
+      width: 60px;
+      height: 60px;
+      
+      }
+    
+  
+      
+    
+    
+    
+      .time{
+       background-color: #07314F;
+       padding: 40px 20px;
+       border-radius:20px;
+      
+      }
+    
+      .Timeline-section {
+        margin-top: 50px;
+      }
+    
+    
+      .Timeline-section h2 {
+        font-size: 18px;
+       
+      }
+
+
+      .akbarfooterlogo{
+        width: 225px;
+        height: 10%;
+      }
+
+    
+
+      .footer-text {
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+      
+
+      .footer-text4 img {
+        width: 90%;
+      }
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .header-contact-info {
+        max-width: 500px;
+        margin: 0 auto;
+        font-size: 10px !important;
+    }
+
+    .section-banner img{
+        height: 250px;
+    }
+
+    .navbar-brand img {
+        width: 14rem !important;
+    }
+
+    .navbar-nav{
+        font-size: 12px;
+        
+    }
+
+    .overlay-text {
+      font-size: 20px;
+    }
+
+    .person-bgred {
+      font-size: 14px;
+      position: absolute;
+      left: 235px !important;
+      width: 240px !important;
+  }
+
+  .person-bgyellow {
+    font-size: 14px;
+    position: absolute;
+  left: -25px !important;
+    width: 240px !important;
+}
+
+  .person-bgred h2, .person-bgyellow h2 {
+    font-size: 14px !important;
+  }
+
+  .person-bgred p,  .person-bgyellow h2{
+    font-size: 12px !important;
+  }
+
+  .person-left-text p , .person-right-text p {
+    font-size: 12px !important;
+    text-align: right;
+    padding-right: 30px;
+}
+
+    .getfares {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .heading-section h2 {
+    font-size: 18px !important;
+  }
+
+  .footer-akbar-img {
+
+      width: 170px;
+      height: 10%;
+  }
+
+  .akbar-logo-footer {
+      display: block;
+      width: 80%;
+      position: relative;
+      left: 25px;
+      top: 5px;
+  }
+
+  
+
+    .blue-section p {
+        font-size: 12px;
+    }
+
+    .white-para p {
+        width: 80%;
+    }
+
+    .white-para p {
+       
+        font-size: 22px;
+      
+    }
+
+  
+    /* Akbar year: */
+    .Timeline-section {
+      margin-bottom: 0 !important;
+    }
+
+    .Timeline-section p {
+        font-size: 12px;
+      
+    }
+
+    .akbar-year{
+        margin-top: 50px;
+    }
+    .akbar-year h2 {
+       
+        font-size: 24px;
+      }
+    
+      .akbar-year p {
+       
+        font-size: 20px;
+      }
+
+      /* footer: */
+  .akbarfooterlogo {
+      width: 160px;
+      height: 8%;
+  }
+
+  .akbarfooterlogo img {
+      display: block;
+
+      width: 80%;
+      position: relative;
+      left: 10px;
+  }
+
+  .footer-text {
+    padding-top: 10px;
+      padding-left: 15px;
+      font-size: 12px;
+  }
+
+  .footer-text1,
+  .footer-text2,
+  .footer-text4 {
+      padding-top: 0;
+      font-size: 12px;
+  }
+
+  .TechpertIn h5,
+  .Products h5 {
+      margin-top: 0;
+      font-size: 14px;
+  }
+    
+
+}
+
+
+
+@media screen and (max-width: 575px) {
+  .header-contact-info {
+      max-width: 400px;
+      margin: 0 auto;
+      font-size: 6px !important;
+  }
+
+  .section-banner img {
+      height: 150px;
+  }
+
+ .navbar-brand img {
+      width: 10rem !important;
+  }
+
+  .navbar-nav{
+      font-size: 6px;
+      margin-bottom: 0 !important;
+      
+  }
+
+  .nav-link.active {
+      border-bottom: 3px solid red;
+      color: #000;
+  }
+
+  .overlay-text {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .heading-section{
+      margin-left: 20px;
+  margin-right: 20px;
+  
+  }
+
+  .heading-section h2{
+      font-size: 14px;
+  }
+  
+  .white-para-text{
+      padding: 0;
+  }
+
+  .white-para p {
+      font-size: 16px;
+  }
+ 
+
+  .owl-item {
+      width: 296px !important ;
+      height: 300px !important;
+    
+     
+  }
+
+  .akbarlogofooter{
+      width: 100%;
+  }
+
+  /* .akbarfooterlogo {
+      width: 160px;
+      height: 22%;
+  } */
+
+
+.TechpertIn, .Products{
+  width: 100%;
+  padding-left:26px;
+}
+
+.footer-text4{
+  padding-left:26px;
+}
+
+.footer-end p {
+  font-size: 10px;
+}
+
+.footer-akbar-img {
+
+  width: 220px;
+  height: 28%;
+}
+
+.akbar-logo-footer {
+  display: block;
+  width: 70%;
+  position: relative;
+  left: 25px;
+ 
+}
+
+
+
+/* small device person section left: */
+
+.person-left-text p {
+  font-size: 8px !important;
+  text-align: right;
+  padding-right: 30px;
+}
+
+
+.left-text {
+  margin-top: 16px !important;
+}
+
+.left-text p{
+ font-size: 8px !important;
+}
+
+.border.red {
+  background-color: #D02027;
+  border: none;
+  width: 75%;
+  transform: translateX(33%);
+}
+
+.border.yellow {
+  background-color: #F68A1E;
+  border: none;
+  width: 60%;
+  transform: translateX(67%);
+}
+
+.border.blue {
+  background-color: #07314F;
+  border: none;
+  width: 75%;
+  transform: translateX(33%);
+}
+
+.logo {
+  width: 60px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.person-image1 {
+  width: 100 !important;
+}
+
+
+
+.person-bgred {
+  font-size: 12px;
+  position: absolute;
+
+  width: 130px !important;
+  left: 156px !important;
+
+  bottom: 2px;
+}
+
+.person-bgred h2 {
+  font-size: 8px !important;
+  margin-bottom: 0 !important;
+}
+
+.person-bgred p {
+  font-size: 8px !important;
+  margin-bottom: 0 !important;
+}
+
+.linked {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+
+/* small device person section right: */
+.person-right-text p {
+  font-size: 8px !important;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.right-text p{
+  font-size: 8px !important;
+ }
+
+ .right-text {
+  margin-top: 67px !important;
+  
+}
+
+
+ .border.red1 {
+  background-color: #D02027;
+  border: none;
+  width: 75%;
+  transform: translateX(1%);
+}
+
+.border.yellow1 {
+  background-color: #F68A1E;
+  border: none;
+  width: 60%;
+  transform: translateX(3%);
+}
+
+.border.blue1 {
+  background-color: #07314F;
+  border: none;
+  width: 75%;
+  transform: translateX(1%);
+}
+
+.logo {
+  width: 50px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.person-image1 {
+  width: 100 !important;
+}
+
+.person-bgyellow {
+  font-size: 12px;
+  position: absolute;
+
+  width: 130px !important;
+  left:-15px !important;
+  top:5px !important;
+
+
+}
+
+.person-bgyellow h2 {
+  font-size: 8px !important;
+  margin-bottom: 0 !important;
+}
+
+.person-bgyellow p {
+  font-size: 8px !important;
+  margin-bottom: 0 !important;
+}
+
+.linked1 {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.logo-container1 {
+  display: flex !important;
+  justify-content: flex-end !important;
+ 
+}
+
+.blue-section p {
+  font-size: 10px !important;
+}
+
+.heading-section h2 {
+  font-size: 12px !important;
+}
+
+.bg-white {
+  margin-bottom: 50px !important;
+}
+
+
+}
+
+
+
+  
+
+/* person section: */
+
+.person-section {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* .left-width {
+    width: 50%;
+ 
+}
+
+.right-width{
+    width: 50%;
+} */
+
+.person-image1{
+    width: 80%;
+}
+
+.person-image1 .person-hidyath {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin-top:40px;
+}
+
+.person-image2{
+  width: 80%;
+}
+
+.person-image2 .person-hidyath {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  margin-top:40px;
+}
+
+.position-logo {
+    position: relative;
+}
+
+.linked {
+    position: absolute;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.linked1 {
+  position: absolute;
+  top: 30%;
+  left:2%;
+  transform: translate(-50%, 50%);
+}
+
+.person-bgred {
+    background-color: #D02027;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 14px;
+    /* margin-bottom: 0 !important; */
+    position: absolute;
+    width: 280px;
+   bottom: -20px;
+   right: -15px;
+}
+
+.person-bgyellow {
+  background-color: #F68A1E;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 14px;
+  /* margin-bottom: 0 !important; */
+  position: absolute;
+  width: 280px;
+  top: -20px;
+  left: -20px;
+}
+.person-bgred h2 , .person-bgyellow h2{
+    font-size: 16px;
+}
+
+
+.left-text {
+  margin-top:100px;
+}
+
+.right-text {
+  margin-top: 180px;
+}
+
+.logos{
+  margin-bottom: 70px;
+}
+
+.logos1{
+  margin-top: 70px;
+}
+
+.person-left-text p{
+  font-size: 16px;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.person-right-text p{
+  font-size: 16px;
+  text-align: left;
+  padding-left: 30px;
+}
