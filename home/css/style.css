@@ -347,7 +347,9 @@ body {
 
 
 
-
+.testimonial-img-size {
+    width: 60% !important;
+}
 
 
 
@@ -465,7 +467,7 @@ body {
   }
   
   .owl-carousel-sliders .item img {
-    height: 400px; /* Set the desired height */
+    max-height: 350px; /* Set the desired height */
     object-fit: cover; /* Ensures the image covers the entire container without distortion */
     border-radius: 20px; /* Adjust as per your preference */
     width: 100%; /* Ensures the image takes the full width of its container */
@@ -478,6 +480,22 @@ body {
     background-color: #07314F !important;
 }
 
+.footer-akbar-img{
+    background-color: white;
+    padding: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+    width: 350px;
+    height: 23%;
+}
+
+.akbar-logo-footer {
+    display: block;
+    width: 70%;
+    position: relative;
+    left: 50px;
+}
 bg-dark img {
     width: 250px;
 }
@@ -537,7 +555,21 @@ bg-dark img {
 
 
 
+
+
   /* Mobile Responsive: */
+
+  @media screen and (max-width: 1399px) {
+    .life-color-size img{
+        min-height: 1200px !important;
+      }
+
+      .testimonial-img-size {
+        width: 75% !important;
+        border-radius: 15% !important;
+      }
+  }
+
   @media screen and (max-width: 1199px) {
     .header-contact-info {
         max-width: 800px;
@@ -548,46 +580,73 @@ bg-dark img {
         width: 18rem;
     }
 
-    .overlay-text {
-     
-        font-size: 36px;
-      
+    .banner-content p {
+        font-size: 14px;
     }
 
+    .overlay-text {
+        font-size: 36px;
+    }
 
-  
-
-
-
-  
-
-      /* Blue section: */
-    
-      .blue-section p{
+    .blue-section p {
         font-size: 16px;
-      }
+    }
 
+    .life-color-size img {
+        min-height: 1400px !important; 
+    }
 
-      .white-para p {
+    .life-color-size p {
         width: 90%;
-      }
-
-      .bg-white{
+    }
+      
+    
+    .white-para p {
         width: 90%;
-      }
+       
+    }
 
-      .akbarfooterlogo{
+     .bg-white {
+        width: 90%;
+    }
+
+    .testimonial-img-size {
+        width: 80% !important;
+        border-radius: 15% !important;
+    }
+
+    .testimonial-text h3 {
+        font-size: 28px !important;
+
+    }
+
+    .testimonial-text h6 {
+        font-size: 16px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .testimonial-text p {
+        font-size: 12px !important;
+        width: 100%;
+        padding-top: 10px !important;
+    }
+
+    .footer-akbar-img {
+
+        width: 300px;
+        height: 15%;
+    }
+
+    .akbarfooterlogo {
         width: 280px;
         height: 15%;
-      }
-      
+    }
 
-      .footer-text4 img {
+    .footer-text4 img {
         width: 90%;
-      }
-    
-    
+    }
 }
+
 
 
 @media screen and (max-width: 991px) {
@@ -607,22 +666,94 @@ bg-dark img {
         
     }
 
-    .overlay-text {
-      font-size: 28px;
+    .banner-content img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
     }
+
+    .banner-content p {
+        font-size: 10px;
+    }
+
+    .overlay-text p{
+      font-size: 24px !important;
+    }
+
+    .overlay-text p{
+        margin-bottom: 50px !important;
+      }
+
+      .ourvision h2, .ourmission h2 {
+        font-size: 1.5rem;
+       
+    }
+
+    .ourvision p, .ourmission p {
+        font-size: 0.7rem;
+       
+    }
+
+    .ourvision span, .ourmission span {
+     
+        font-size: 0.9rem;
+        
+    }
+  
 
     .blue-section p {
         font-size: 14px;
     }
 
     .white-para p {
-        width: 80%;
+        width: 90%;
     }
 
     .white-para p {
        
-        font-size: 22px;
+        font-size: 20px;
       
+    }
+
+    .life-color-size img{
+        min-height: 200vh !important;
+    }
+
+    .life-color-size p {
+        width: 90% !important;
+        font-size: 20px;
+    }
+
+    .who-we-are {
+        padding:25px 0 !important;
+    }
+
+
+
+
+    .testimonial-img-size {
+        width: 100% !important;
+        border-radius: 15% !important;
+    }
+
+    .testimonial-text{
+        padding: 25px !important;
+    }
+
+    .testimonial-text h3 {
+        font-size: 24px !important;
+
+    }
+
+    .testimonial-text h6 {
+        font-size: 12px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .testimonial-text p {
+        font-size: 10px !important;
+        width: 95%;
+        padding-top: 10px !important;
     }
 
     
@@ -701,6 +832,20 @@ bg-dark img {
         height: 10%;
       }
 
+
+      .footer-akbar-img {
+
+        width: 220px;
+        height: 12%;
+    }
+
+    .akbar-logo-footer {
+        display: block;
+        width: 80%;
+        position: relative;
+        left: 25px;
+        top: 5px;
+    }
     
 
       .footer-text {
@@ -724,9 +869,7 @@ bg-dark img {
         font-size: 10px !important;
     }
 
-    .section-banner img{
-        height: 250px;
-    }
+
 
     .navbar-brand img {
         width: 14rem !important;
@@ -737,8 +880,65 @@ bg-dark img {
         
     }
 
-    .overlay-text {
-      font-size: 20px;
+    .banner-content {
+        padding: 15px 0;
+        margin-top: -75px !important;
+    }
+
+    .banner-content img {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+
+    .banner-content p {
+        font-size: 7px;
+    }
+
+    .overlay-text p {
+        font-size: 18px !important;
+    }
+
+    .ourvision .leftside, .ourmission .rightside1 {
+        flex: 1;
+        padding: 15px;
+    }
+
+    .ourvision h2, .ourmission h2 {
+        font-size: 1.2rem;
+    }
+
+    .ourvision span, .ourmission span {
+        font-size: 0.6rem;
+    }
+
+    .ourvision p, .ourmission p {
+        font-size: 0.5rem;
+    }
+
+    .heading-section h2 {
+        font-size: 18px !important;
+       background-color: #07314F !important;
+        max-width: 300px !important;
+        padding: 13px 11px !important;
+      
+    }
+
+    .company-people h4{
+        font-size: 1.3rem !important;
+    }
+
+    .company-people p{
+        font-size: 1rem !important;
+    }
+
+    .life-color-size img {
+        min-height: 170vh !important;
+    }
+
+    .life-color-size p {
+        width: 90% !important;
+        font-size: 16px !important;
     }
 
     .First-column {
@@ -755,13 +955,36 @@ bg-dark img {
     }
 
     .white-para p {
-        width: 80%;
+        width: 90% !important;
     }
 
     .white-para p {
-       
-        font-size: 22px;
-      
+        font-size: 16px !important;
+    }
+
+    .testimonial-img-size {
+        width: 100% !important;
+        border-radius: 15% !important;
+    }
+
+    .testimonial-text{
+        padding: 20px !important;
+    }
+
+    .testimonial-text h3 {
+        font-size: 14px !important;
+
+    }
+
+    .testimonial-text h6 {
+        font-size: 10px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .testimonial-text p {
+        font-size: 7px !important;
+        width: 100%;
+        padding-top: 5px !important;
     }
 
     .person-image1 img {
@@ -796,6 +1019,27 @@ bg-dark img {
        
         font-size: 20px;
       }
+
+
+      .owl-carousel-sliders .item img {
+      
+        max-height: 300px !important;
+    
+    }
+
+    .footer-akbar-img {
+
+        width: 170px;
+        height: 10%;
+    }
+
+    .akbar-logo-footer {
+        display: block;
+        width: 80%;
+        position: relative;
+        left: 25px;
+        top: 5px;
+    }
 
       /* footer: */
   .akbarfooterlogo {

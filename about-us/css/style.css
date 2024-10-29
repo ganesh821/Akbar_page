@@ -178,7 +178,7 @@ body {
 
   .border.red1 {
     background-color:#D02027;
-    width: 55%; /* Sets the width to 50% */
+    width: 75%; /* Sets the width to 50% */
     transform: translateX(0); /* Moves the element 50% of its width to the right */
     border:none;
    
@@ -188,8 +188,8 @@ body {
   .border.blue1 {
     background-color:#07314F;
     border:none;
-    width: 55%; /* Sets the width to 50% */
-    transform: translateX(100%); /* Moves the element 50% of its width to the right */
+    width: 75%; /* Sets the width to 50% */
+    transform: translateX(0%); /* Moves the element 50% of its width to the right */
     
   }
   
@@ -197,7 +197,7 @@ body {
     background-color:#F68A1E;
     border:none;
     width: 60%; /* Sets the width to 50% */
-    transform: translateX(100%); /* Moves the element 50% of its width to the right */
+    transform: translateX(0%); /* Moves the element 50% of its width to the right */
     
   }
   
@@ -341,83 +341,83 @@ body {
   
 /* footer: */
 .bg-dark {
-    border-bottom:5px solid orange;
-    background-color: #07314F !important;
+  border-bottom:5px solid orange;
+  background-color: #07314F !important;
 }
 
 bg-dark img {
-    width: 250px;
+  width: 250px;
 }
 
 .footer-text {
-    padding-top:30px;
+  padding-top:30px;
 
 }
 
 .footer-text {
-    padding-top:30px;
-    padding-left:70px;
-    
+  padding-top:30px;
+  padding-left:70px;
+  
 }
 
 .footer-text1, .footer-text2 {
-    padding-top:65px;
-    line-height: 2.0;
+  padding-top:65px;
+  line-height: 2.0;
 } 
 
 .footer-text4 {
-    line-height: 1.8;
+  line-height: 1.8;
 }
 
 .Products , .TechpertIn {
-    width: 20%;
+  width: 20%;
 }
 
 .container-footer{
-    margin-left:0;
-    padding-left:0;
+  margin-left:0;
+  padding-left:0;
 }
 
 .akbarlogofooter {
-    width: 35%;
+  width: 35%;
+}
+
+.footer-akbar-img{
+  background-color: white;
+  padding: 10px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  position: relative;
+  width: 350px;
+  height: 23%;
+}
+
+.akbar-logo-footer {
+  display: block;
+  width: 70%;
+  position: relative;
+  left: 50px;
 }
 
 .footer-end {
-    background-color: red;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 14px;
-    padding: 10px 0; /* Adjust padding as needed */
-    width: 100%; /* Ensures it takes the full width */
-    position: relative; /* Helps center the content */
-    font-weight: 500;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  background-color: red;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 14px;
+  padding: 10px 0; /* Adjust padding as needed */
+  width: 100%; /* Ensures it takes the full width */
+  position: relative; /* Helps center the content */
+  font-weight: 500;
 
-  .footer-end p {
-    margin-bottom: 0 !important;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .akbarfooterlogo {
-      background-color: white;
-      padding: 10px;
-      border-top-right-radius: 25px;
-      border-bottom-right-radius: 25px;
-      position: relative;
-      width: 350px;
-      height: 23%;
-  }
-
-  .akbarfooterlogo img {
-    display: block; 
-    width: 70%;
-     position: relative;
-      left: 50px;
-  }
+.footer-end p {
+  margin-bottom: 0 !important;
+}
 
 
 
@@ -669,6 +669,63 @@ bg-dark img {
 
 /* Mobile Responsive: */
 
+
+@media screen and (max-width: 1399px) {
+
+  .header-contact-info {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .navbar-brand img {
+    width: 18rem;
+  }
+
+  .overlay-text {
+
+    font-size: 36px;
+  }
+
+  .person-image1 .person-hidyath {
+    margin-top: 0 !important;
+  }
+
+  .person-bgred {
+    width: 250px !important;
+    position: absolute;
+    right: -35px !important;
+  }
+
+  .person-image1 .person-hidyath {
+    margin-bottom: 0 !important;
+  }
+
+  .person-bgyellow {
+    width: 250px !important;
+    position: absolute;
+    top: -20px;
+    left: -41px;
+  }
+
+  .footer-akbar-img {
+
+    width: 300px;
+    height: 15%;
+  }
+
+
+  .akbarfooterlogo {
+    width: 280px;
+    height: 15%;
+
+  }
+
+  .footer-text4 img {
+    width: 100%;
+  }
+
+}
+
 @media screen and (max-width: 1199px) {
     .header-contact-info {
         max-width: 800px;
@@ -684,6 +741,52 @@ bg-dark img {
         font-size: 36px;
       
     }
+
+   .person-image1 {
+          width: 100% !important;
+        
+        }
+    
+    .person-image2 {
+          width: 100% !important;
+         
+        }
+
+        .person-image1 .person-hidyath {
+          margin-top: 0px !important;
+        }
+
+        .person-image2 .person-hidyath {
+          margin-bottom: 0px !important;
+        }
+
+        .person-bgred {
+          width: 200px !important;
+          position: absolute;
+          right: -12px !important;
+        }
+
+        .person-bgyellow {
+          width: 200px !important;
+          position: absolute;
+         
+          left:-12px !important;
+        }
+
+        .person-bgred h2, .person-bgyellow h2{
+          font-size: 16px !important;
+        }
+        .person-bgred p, .person-bgyellow p{
+          font-size: 14px !important;
+        }
+
+        .person-left-text p , .person-right-text p {
+          font-size: 14px !important;
+        }
+
+    
+
+
 
   /* Blue section: */
     
@@ -731,6 +834,7 @@ bg-dark img {
 
     .navbar-nav{
         font-size: 14px;
+        margin-bottom: 0 !important;
         
     }
 
@@ -752,6 +856,57 @@ bg-dark img {
       
     }
 
+        .person-image1 .person-hidyath {
+          width: 70% !important;
+          
+        }
+    
+        .person-image2 .person-hidyath {
+          width: 70% !important;
+        }
+
+        .person-image2 {
+          position: relative !important;
+          right: -15% !important;
+        }
+    
+                .person-bgred {
+                  font-size: 14px;
+                  position: absolute;
+                  left: 324px !important;
+                  width: 324px !important;
+                }
+
+                .person-bgyellow {
+                  font-size: 14px;
+                  position: absolute;
+                  left: -30px !important;
+                  width: 324px !important;
+                }
+
+        .person-left-text p, .person-right-text p {
+          font-size: 18px !important;
+          text-align: right;
+          padding-right: 30px;
+      }
+
+      .spaces {
+        margin:30px 0 !important;
+      }
+
+      .footer-akbar-img {
+
+        width: 220px;
+        height: 12%;
+    }
+
+    .akbar-logo-footer {
+        display: block;
+        width: 80%;
+        position: relative;
+        left: 25px;
+        top: 5px;
+    }
     
 
 
@@ -849,6 +1004,57 @@ bg-dark img {
       font-size: 20px;
     }
 
+    .person-bgred {
+      font-size: 14px;
+      position: absolute;
+      left: 235px !important;
+      width: 240px !important;
+  }
+
+  .person-bgyellow {
+    font-size: 14px;
+    position: absolute;
+  left: -25px !important;
+    width: 240px !important;
+}
+
+  .person-bgred h2, .person-bgyellow h2 {
+    font-size: 14px !important;
+  }
+
+  .person-bgred p,  .person-bgyellow h2{
+    font-size: 12px !important;
+  }
+
+  .person-left-text p , .person-right-text p {
+    font-size: 12px !important;
+    text-align: right;
+    padding-right: 30px;
+}
+
+    .getfares {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .heading-section h2 {
+    font-size: 18px !important;
+  }
+
+  .footer-akbar-img {
+
+      width: 170px;
+      height: 10%;
+  }
+
+  .akbar-logo-footer {
+      display: block;
+      width: 80%;
+      position: relative;
+      left: 25px;
+      top: 5px;
+  }
+
   
 
     .blue-section p {
@@ -867,6 +1073,9 @@ bg-dark img {
 
   
     /* Akbar year: */
+    .Timeline-section {
+      margin-bottom: 0 !important;
+    }
 
     .Timeline-section p {
         font-size: 12px;
@@ -923,88 +1132,272 @@ bg-dark img {
 }
 
 
+
 @media screen and (max-width: 575px) {
-    .header-contact-info {
-        max-width: 400px;
-        margin: 0 auto;
-        font-size: 6px !important;
-    }
+  .header-contact-info {
+      max-width: 400px;
+      margin: 0 auto;
+      font-size: 6px !important;
+  }
 
-    .section-banner img {
-        height: 150px;
-    }
+  .section-banner img {
+      height: 150px;
+  }
 
+ .navbar-brand img {
+      width: 10rem !important;
+  }
+
+  .navbar-nav{
+      font-size: 6px;
+      margin-bottom: 0 !important;
+      
+  }
+
+  .nav-link.active {
+      border-bottom: 3px solid red;
+      color: #000;
+  }
+
+  .overlay-text {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .heading-section{
+      margin-left: 20px;
+  margin-right: 20px;
+  
+  }
+
+  .heading-section h2{
+      font-size: 14px;
+  }
+  
+  .white-para-text{
+      padding: 0;
+  }
+
+  .white-para p {
+      font-size: 16px;
+  }
  
 
-    .navbar-brand img {
-        width: 10rem !important;
-    }
-
-    .navbar-nav{
-        font-size: 6px;
-        margin-bottom: 0 !important;
-        
-    }
-
-    .nav-link.active {
-        border-bottom: 3px solid red;
-        color: #000;
-    }
-
-    .overlay-text {
-      font-size: 12px;
-      line-height: 1.4;
-    }
-
+  .owl-item {
+      width: 296px !important ;
+      height: 300px !important;
     
-   
-    .heading-section{
-        margin-left: 20px;
-    margin-right: 20px;
-    
-    }
+     
+  }
 
-    .heading-section h2{
-        font-size: 14px;
-    }
-    
-    .white-para-text{
-        padding: 0;
-    }
+  .akbarlogofooter{
+      width: 100%;
+  }
 
-    .white-para p {
-        font-size: 16px;
-    }
-   
-
-    .owl-item {
-        width: 296px !important;
-      
-       
-    }
-
-    .akbarlogofooter{
-        width: 100%;
-    }
-
-    .akbarfooterlogo {
-        width: 160px;
-        height: 22%;
-    }
+  /* .akbarfooterlogo {
+      width: 160px;
+      height: 22%;
+  } */
 
 
 .TechpertIn, .Products{
-    width: 100%;
-    padding-left:26px;
+  width: 100%;
+  padding-left:26px;
 }
 
 .footer-text4{
-    padding-left:26px;
+  padding-left:26px;
 }
 
 .footer-end p {
-    font-size: 10px;
+  font-size: 10px;
 }
+
+.footer-akbar-img {
+
+  width: 220px;
+  height: 28%;
+}
+
+.akbar-logo-footer {
+  display: block;
+  width: 70%;
+  position: relative;
+  left: 25px;
+ 
+}
+
+
+
+/* small device person section left: */
+
+.person-left-text p {
+  font-size: 8px !important;
+  text-align: right;
+  padding-right: 30px;
+}
+
+
+.left-text {
+  margin-top: 16px !important;
+}
+
+.left-text p{
+ font-size: 8px !important;
+}
+
+.border.red {
+  background-color: #D02027;
+  border: none;
+  width: 75%;
+  transform: translateX(33%);
+}
+
+.border.yellow {
+  background-color: #F68A1E;
+  border: none;
+  width: 60%;
+  transform: translateX(67%);
+}
+
+.border.blue {
+  background-color: #07314F;
+  border: none;
+  width: 75%;
+  transform: translateX(33%);
+}
+
+.logo {
+  width: 60px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.person-image1 {
+  width: 100 !important;
+}
+
+
+
+.person-bgred {
+  font-size: 12px;
+  position: absolute;
+
+  width: 130px !important;
+  left: 156px !important;
+
+  bottom: 2px;
+}
+
+.person-bgred h2 {
+  font-size: 8px !important;
+  margin-bottom: 0 !important;
+}
+
+.person-bgred p {
+  font-size: 8px !important;
+  margin-bottom: 0 !important;
+}
+
+.linked {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+
+/* small device person section right: */
+.person-right-text p {
+  font-size: 8px !important;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.right-text p{
+  font-size: 8px !important;
+ }
+
+ .right-text {
+  margin-top: 67px !important;
+  
+}
+
+
+ .border.red1 {
+  background-color: #D02027;
+  border: none;
+  width: 75%;
+  transform: translateX(1%);
+}
+
+.border.yellow1 {
+  background-color: #F68A1E;
+  border: none;
+  width: 60%;
+  transform: translateX(3%);
+}
+
+.border.blue1 {
+  background-color: #07314F;
+  border: none;
+  width: 75%;
+  transform: translateX(1%);
+}
+
+.logo {
+  width: 50px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.person-image1 {
+  width: 100 !important;
+}
+
+.person-bgyellow {
+  font-size: 12px;
+  position: absolute;
+
+  width: 130px !important;
+  left:-15px !important;
+  top:5px !important;
+
+
+}
+
+.person-bgyellow h2 {
+  font-size: 8px !important;
+  margin-bottom: 0 !important;
+}
+
+.person-bgyellow p {
+  font-size: 8px !important;
+  margin-bottom: 0 !important;
+}
+
+.linked1 {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.logo-container1 {
+  display: flex !important;
+  justify-content: flex-end !important;
+ 
+}
+
+.blue-section p {
+  font-size: 10px !important;
+}
+
+.heading-section h2 {
+  font-size: 12px !important;
+}
+
+.bg-white {
+  margin-bottom: 50px !important;
+}
+
+
 }
 
 
@@ -1037,6 +1430,17 @@ bg-dark img {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     margin-top:40px;
+}
+
+.person-image2{
+  width: 80%;
+}
+
+.person-image2 .person-hidyath {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  margin-top:40px;
 }
 
 .position-logo {
